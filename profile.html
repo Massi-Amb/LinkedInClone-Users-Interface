@@ -1,0 +1,299 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Website Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+         <!--------------------Left-Navbar-------------------------------------->
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="Images/logo.png"></a>
+            <div class="search-box">
+                <img src="Images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+        </div>
+
+    <!-----------------------------Center-Navbar-------------------------------------->
+        <div class="navbar-center">
+            <ul>
+                <li><a href="" class="active-link"><img src="Images/home.png"> <span>Home</span></a></li>
+                <li><a href=""><img src="Images/network.png"> <span>My Network</span></a></li>
+                <li><a href=""><img src="Images/jobs.png"> <span>Jobs</span></a></li>
+                <li><a href=""><img src="Images/message.png"> <span>Messaging</span></a></li>
+                <li><a href=""><img src="Images/notification.png"> <span>Notifications</span></a></li>
+            </ul>
+        </div>
+    <!--------------------------------------Right-Navbar-------------------------------------->
+        <div class="navbar-right">
+            <div class="online">
+                <img src="Images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>          
+        </div>
+        
+        <!--------------------------Profile-Drop-down-Menu----------------------------------->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="Images/user-1.png">
+                    <div>
+                        <h3>Pierce Bondurant</h3>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-links">
+                    <img src="Images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-links">
+                    <img src="Images/setting.png">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-links">
+                    <img src="Images/help.png" >
+                    <p>Help & Suppport Center</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-links">
+                    <img src="Images/display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-links">
+                    <img src="Images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+
+    </nav>
+    <!----------------------------------Navbar-Close-------------------------------------->
+    <div class="container">
+        <div class="profile-main">
+             <div class="profile-container">
+                <img src="Images/cover-pic.png" width="100%">
+                <div class="profile-container-inner">
+                    <img src="Images/user-1.png" class="profile-pic">
+                    <h1>Pierce Bondurant</h1>
+                    <b>Senior Fullstack Developer and Principal Designer at Google</b>
+                    <p> The Bronx, New York, United States, &middot; <a href="#">Contact Info</a></p>
+                    <div class="mutual-connection">
+                        <img src="Images/user-2.png">
+                        <span>10 mutual connection: Bill Gates</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="Images/connect.png">Connect</a>
+                        <a href="#"><img src="Images/chat.png">Message</a>
+                    </div>
+                </div>
+             </div>
+
+             <div class="profile-description">
+                 <h2>About</h2>
+                 <p>The success of every websites depeends on search engine optimisation and 
+                    digital marketing strategy. If you are on first page of all major search engine
+                    then you are ahead among your competitors.
+                </p>
+                <a href="#" class="see-more-links">See More...</a>
+             </div>
+             
+             <div class="profile-description">
+                <h2>Experience</h2>
+                 <div class="profile-desc-row">
+                    <img src="Images/microsoft.png">
+                    <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>September 2023 - Present &middot; 1.5 years</b>
+                        <p>Computer Programming is the process of performing a particular
+                            computation, usually by designing and building an executable Computer
+                            program.
+                        </p>
+                        <hr>
+                    </div>
+                 </div>
+                 
+                 <div class="profile-desc-row">
+                    <img src="Images/slack.png">
+                    <div>
+                        <h3>Fullstack Developer</h3>
+                        <b>Slack &middot; Full-time</b>
+                        <b>August 2023 - Present &middot; 2.7 years</b>
+                        <p>Computer Programming is the process of performing a particular
+                            computation, usually by designing and building an executable Computer
+                            program.
+                        </p>
+                        <hr>
+                    </div>
+                 </div>
+
+                 <div class="profile-desc-row">
+                    <img src="Images/google.png">
+                    <div>
+                        <h3>Web Developer</h3>
+                        <b>Google Inc &middot; Full-time</b>
+                        <b>October 2023 - Present &middot; 2.5 years</b>
+                        <p>Computer Programming is the process of performing a particular
+                            computation, usually by designing and building an executable Computer
+                            program.
+                        </p>
+                        <hr>
+                    </div>
+                 </div>
+                <a href="#" class="experience-link">Show all 7 experiences <img src="Images/right-arrow.png"></a>
+            </div>
+            
+            <div class="profile-description">
+                <h1>Education</h1>
+                <div class="profile-desc-row">
+                    <img src="Images/stanford.png">
+                    <div>
+                        <h3>Stanford University</h3>                   
+                        <b>BSEE, Artificial Intelligence & Computer Science</b>
+                        <b>2023 - 2025</b>
+                    </div>                   
+                </div>
+                <div class="profile-desc-row">
+                    <img src="Images/north.png">
+                    <div>
+                        <h3>NorthWestern University </h3>                   
+                        <b>Masters, Computer Engineering & Network</b>
+                        <b>2018 - 2021</b>
+                    </div>                   
+                </div>
+                <div class="profile-desc-row">
+                    <img src="Images/mit.png">
+                    <div>
+                        <h3>Futurenow Academy</h3>                   
+                        <b>Senior High School</b>
+                        <b>2015 - 2018</b>
+                    </div>                   
+                </div>
+            </div>
+            
+            <div class="profile-description">
+                <h2>Skills</h2>
+                <a href="#" class="skills-btn">Leadership</a>
+                <a href="#" class="skills-btn">Web Design</a>
+                <a href="#" class="skills-btn">Development</a>
+                <a href="#" class="skills-btn">Communication</a>
+                <a href="#" class="skills-btn">UI/UX</a>
+                <a href="#" class="skills-btn">Coding</a>
+                <a href="#" class="skills-btn">Javascript</a>
+                <a href="#" class="skills-btn">C# C++ C F+ Ruby Php</a>
+                <a href="#" class="skills-btn">Python</a>
+                <a href="#" class="skills-btn">Html5, CSS</a>
+                <a href="#" class="skills-btn">Enterpreneurship</a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Languages</h2>
+                <a href="#" class="language-btn">English</a>
+                <a href="#" class="language-btn">Spanish</a>
+                <a href="#" class="language-btn">French</a>
+                <a href="#" class="language-btn">German</a>
+                <a href="#" class="language-btn">Arabic</a>
+            </div>
+
+        </div>
+
+        <!-----------profile-sidebar------------------>
+
+        <div class="profile-sidebar">
+              
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the full principles of Fullstack Web Development</p>
+                <div>
+                    <img src="Images/user-1.png">
+                    <img src="Images/mi-logo.png">
+                </div>
+                <b>Brand and Design in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div> 
+
+            <div class="sidebar-people">
+                <h3>People you may know</h3>
+                <div class="sidebar-people-row">
+                    <img src="Images/user-3.png">
+                    <div>
+                        <h2>Felicity Smoak</h2>
+                        <p>CEO of palmer-Tech & Queen Consolidate</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-people-row">
+                    <img src="Images/user-4.png">
+                    <div>
+                        <h2>Angela Washington</h2>
+                        <p>Principal Designer & lead Architect at Microsoft</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-people-row">
+                    <img src="Images/user-5.png">
+                    <div>
+                        <h2>Oliver Quin</h2>
+                        <p> Database Designer & Lead Architect at Apple</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-people-row">
+                    <img src="Images/user-1.png">
+                    <div>
+                        <h2>Samuel Eto'o</h2>
+                        <p>Principal Designer at Samsung</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="profile-footer">
+        <div class="sidebar-useful-links">
+            <a href="#">About</a>
+            <a href="#">Help Center</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Privacy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+
+            <div class="copright-msg">
+              <img src="Images/logo.png" >
+              <p>Linkedup &#169; 2023. All right reserved</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-------------------------------Javascript-Toggle-menu-------------------------------------->
+   <script>
+
+        let profileMenu = document.getElementById("profileMenu");
+
+        function toggleMenu()
+        {
+            profileMenu.classList.toggle("open-menu");
+        }
+
+   </script>
+
+
+</body>
+</html>
